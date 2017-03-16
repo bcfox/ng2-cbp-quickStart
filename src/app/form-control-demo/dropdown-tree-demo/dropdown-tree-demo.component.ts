@@ -28,7 +28,7 @@ export class DropdownTreeDemoComponent {
 
     openDialog(): void {
         this._dialog.open(this.dialogTemplate, {
-            width: '400px'
+            width: '400px',
         });
     }
 }
